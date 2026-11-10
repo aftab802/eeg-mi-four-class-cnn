@@ -40,8 +40,9 @@ data, `train_test_subject_overlap` (0 under the leakage-safe protocol).
 
 | Result in the paper | Value | Source of the number | Re-run with this repository? |
 |---|---|---|---|
-| Test accuracy, 100 epochs | 66 % | Original notebook, output preserved (66.48 %, train 84.5 %) | TF2 port in `run_fourclass_cnn.py`; not re-run here |
-| Test accuracy, 50 epochs | 63 % | Not in the preserved notebook output | `--epochs 50`; **re-run to document** |
+| Test accuracy, 100 epochs | 66 % | Original notebook, output preserved (66.48 %, train 84.5 %) | **Re-run: 64.63 % (train 84.0 %)** |
+| Test accuracy, 50 epochs | 63 % | Not in the preserved notebook output | **Re-run: 62.66 % (train 74.5 %)** |
+| Subject-wise split (Algorithm 2), 100 epochs | 58.33 % | Re-run of this code (98 train / 11 test subjects) | **Re-run** |
 
 ## Points to resolve against the manuscript
 
