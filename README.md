@@ -43,6 +43,7 @@ data, `train_test_subject_overlap` (0 under the leakage-safe protocol).
 | Test accuracy, 100 epochs | 66 % | Original notebook, output preserved (66.48 %, train 84.5 %) | **Re-run: 64.63 % (train 84.0 %)** |
 | Test accuracy, 50 epochs | 63 % | Not in the preserved notebook output | **Re-run: 62.66 % (train 74.5 %)** |
 | Subject-wise split (Algorithm 2), 100 epochs | 58.33 % | Re-run of this code (98 train / 11 test subjects) | **Re-run** |
+| Subject-wise split, 100 epochs, five random splits | 62.34 ± 4.98 % | 58.33, 67.86, 64.94, 55.95, 64.61 (seeds 42, 1, 3, 4, 5; CI run in eeg-mi-leakage-benchmark) | **Re-run** |
 
 ## Points to resolve against the manuscript
 
